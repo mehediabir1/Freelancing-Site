@@ -1,0 +1,139 @@
+/*common css start*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+/*common css end*/
+/*welcome part start*/
+.main
+{	
+	margin: 0px auto;
+	margin-top: 15%;
+	width: 500px;
+	height: 360px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px 8px #C1E8E4;
+}
+
+.main .welcome
+{	
+	padding-top: 20px;
+	width: 100%;
+	color: #00000f;
+}
+.main .welcome h1
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+}
+/*welcome part end*/
+
+
+.main .username 
+{	
+	display: flex;
+  	justify-content: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.main .username input
+{
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: rgb(240, 240, 240);
+	height: 40px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	width: 250px;
+}
+
+.main .Password
+{	
+	display: flex;
+  	justify-content: center;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.main .Password input
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: rgb(240, 240, 240);
+	height: 40px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	width: 250px;
+}
+
+.main .login_but input
+{	
+	color: white;
+}
+
+.main .login_but
+{	
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+  	justify-content:center;
+	margin-top: 25px;
+	width: 200px;
+	height: 40px;
+	border: 1px;
+}
+
+.main .login_but:hover
+{	
+	border: 1px solid #33ccff;
+	background-color: #33ccff;
+  	color: black;
+}
+
+.main .last
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	display: flex;
+  	justify-content: center;
+	margin: 0px. auto;
+	margin-top: 20px;
+}
+
+/*bottom section start*/
+
+.end_section
+{
+	width: 100%;
+}
+.end_section .garbage p
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	margin-top: 200px;
+	text-align: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*bottom section end*/
+.main .last a:hover
+{
+	text-decoration: underline;
+}

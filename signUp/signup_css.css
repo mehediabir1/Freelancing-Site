@@ -1,0 +1,62 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+.image
+{	
+	margin-top: 0px;
+	width: 100%;
+	height: 1000px;
+	background-image: url(earth_img.jpg);
+	background-size: cover;
+	overflow: auto;
+
+}
+
+.image .box
+{	
+	display: flex;
+	width: 60%;
+	height: 300px;
+	border-radius: 10px;
+	background-color: aqua;
+	margin: 0px auto;
+	margin-top: 20%;
+
+	
+}
+
+/*.image .box. .informations
+{
+	margin-left: 50%;
+	/*width: 50px;*/
+
+}
+*/
+
+.image .box .informations input
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid black;
+}
+
+.image .signup input
+{	
+	height: 300px;
+	background-color: #ff9933;
+	padding: 10px 50px;
+	float: right;
+	border: none;
+}

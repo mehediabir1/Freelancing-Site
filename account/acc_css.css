@@ -1,0 +1,35 @@
+th
+{ 
+  background-color: aqua;
+  width: 200px;
+}
+
+table
+{
+  outline: 1px solid black;
+  margin-top: 100px;
+  margin: 0px auto;
+}
+td 
+{
+text-align: center;
+vertical-align: top;
+}
+.main span
+{
+  margin-left: 28%;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.setup input
+{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.setup
+{
+  margin-top: 100px;
+  margin-left: 35%;
+}

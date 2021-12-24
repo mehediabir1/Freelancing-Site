@@ -1,0 +1,126 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 250px;
+    font-weight: 70;
+    color: #013056;
+}
+
+span
+{
+	font-family: 'Lexend Deca', sans-serif;
+}
+input[type=text]
+{
+	font-family: 'Lexend Deca', sans-serif;
+	color: #013056;
+}
+
+.signup
+{	
+	position: fixed;
+	padding-top: 50px;
+	width: 87%;
+}
+
+.box
+{	
+	position: fixed;
+	left: 700px;
+	box-shadow: 0px 0px 8px 8px #C1E8E4;
+	display: flex;
+	width: 500px;
+	height: 360px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 0px auto;
+	margin-top: 15%;
+}
+
+.box .informations
+{	
+	margin: auto;
+	margin-right: 10px;
+}
+.box .informations .name
+{
+	margin-top: 12px;
+}
+.box .informations .email
+{
+	margin-top: 12px;
+}
+
+.box .informations .password
+{
+	margin-top: 12px;
+}
+
+.box .informations_2
+{
+	margin: auto;
+}
+.box .informations_2 .phone
+{
+	margin-top: 12px;
+}
+.box .informations_2 .username
+{
+	margin-top: 12px;
+}
+
+.box .informations_2 .con_password
+{
+	margin-top: 12px;
+}
+
+.box .informations input
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: rgb(240, 240, 240);
+	height: 40px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	width: 170px;
+}
+
+.box .informations_2 input
+{	
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: rgb(240, 240, 240);
+	height: 40px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	width: 170px;
+}
+
+.informations .signup_button
+{	
+	margin-top: 25px;
+	width: 170px;
+	height: 30px;
+	float: left;
+	border: 1px;
+}
+
+.informations_2 .login_button
+{	
+	margin-top: 25px;
+	width: 170px;
+	height: 30px;
+	float: left;
+	border: 1px;
+}

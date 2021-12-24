@@ -1,0 +1,101 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li
+{
+    list-style-type: none;
+}
+
+body 
+{
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+.contest_body
+{	
+	width: 800px;
+	height: 420px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 0px auto;
+	margin-top: 10%;
+	box-shadow: 0px 0px 8px 8px #C1E8E4;
+}
+
+.contest_body input
+{
+	width: 540px;
+	height: 30px;
+	color: black;
+}
+
+label
+{
+	color: black;
+	display: inline-block;
+	width: 150px;
+}
+
+select
+{
+	height: 30px;
+}
+
+.contest_body .categories
+{	
+	padding-top: 20px;
+	margin-left: 50px;
+}
+
+.contest_body .title
+{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.contest_body .description
+{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.contest_body .price
+{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.contest_body .price input
+{
+	width: 420px;
+}
+
+.contest_body .fav_des
+{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.contest_body .description input
+{
+	height: 80px;
+}
+
+.contest_body .post
+{	
+	margin-right: 50px;
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.contest_body .post input
+{
+	width: 450px;
+	background-color: #E5B551;
+	border: none;
+	border-radius: 10px;
+}
+.button
+{
+	color: black;
+}
